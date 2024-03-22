@@ -74,7 +74,7 @@ public class App {
             String guess = scanner.nextLine();
 
             while (!guess.equals("q")) {
-                System.out.println("You've guessed '" + guess+"'.");
+                System.out.println("You've guessed '" + guess +"'.");
 
                 if (wordleDatabaseConnection.isValidWord(guess)) { 
                     System.out.println("Success! It is in the the list.\n");
